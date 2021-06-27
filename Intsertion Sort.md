@@ -1,13 +1,13 @@
-<h1> Insertion sort</h1>
-<h2>what is Insertation sort</h2>
-Insertation sort，中文名插入排序，本质上就是对一串数字进行排序。
-<h2>how it works</h2>
-Insertation sort的工作过程，实际上就是从第i项（a[i - 1]，i>=1）开始，不断对前i-1项进行排序，最后再将第i项放入其中。<br>
+<h1> Insertion Sort</h1>
+<h2>What is Insertation Sort</h2>
+Insertation Sort，中文名插入排序，本质上就是对一串数字进行排序。
+<h2>How it works</h2>
+Insertation Sort的工作过程，实际上就是从第i项（a[i - 1]，i>=1）开始，不断对前i-1项进行排序，最后再将第i项放入其中。<br>
 局部过程
 <img src="https://github.com/SaltyFishy/CLRS/blob/Sort/insertation_sort%20work1.png" alt="局部过程">
 图像表示全局过程
 <img src="https://github.com/SaltyFishy/CLRS/blob/Sort/insertation_sort%20work2.jpg" alt="全局过程">
-<h2>code</h2>
+<h2>Code</h2>
 
 ```
 #include<iostream>
