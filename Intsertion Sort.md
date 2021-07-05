@@ -9,7 +9,7 @@ Insertation Sort的工作过程，实际上就是从第i项（a[i - 1]，i>=1）
 <img src="https://github.com/SaltyFishy/CLRS/blob/Sort/insertation_sort%20work2.jpg" alt="全局过程">
 <h2>Code</h2>
 
-```
+```C++
 #include<iostream>
 #include<iomanip>
 using namespace std;
